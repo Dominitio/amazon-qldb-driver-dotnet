@@ -1,9 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.1;netcoreapp3.1</TargetFrameworks>
     <IsPackable>false</IsPackable>
-    <ReleaseVersion>1.0.1</ReleaseVersion>
+    <ReleaseVersion>1.1.0</ReleaseVersion>
     <LangVersion>Latest</LangVersion>
   </PropertyGroup>
 
@@ -17,7 +17,7 @@
     </PackageReference>
     <PackageReference Include="NLog" Version="4.7.4" />
     <PackageReference Include="AWSSDK.QLDB" Version="3.5.0.9" />
-    <PackageReference Include="AWSSDK.QLDBSession" Version="3.5.0.9" />
+    <PackageReference Include="AWSSDK.QLDBSession" Version="3.5.1.4" />
   </ItemGroup>
 
   <ItemGroup>
